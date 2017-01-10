@@ -65,6 +65,13 @@
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
+.button.b{
+	color: white;
+	background-color:#2EE4DF;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+} 
+
 
 /* Simulate Button Press */
 .function:active {
