@@ -27,6 +27,5 @@ function colorChange(color) {
 	// cycle through all the elements in the array, changing their class (.classname = "");
 	//var array = [1,"potato",3,4];
 	//alert(array[0]);
-	// change their class
 }
 
