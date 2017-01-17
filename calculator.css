@@ -5,7 +5,7 @@
 .box {
 	background-color: #e5e7ea;
 	height: 300px;
-	width: 250px;
+	width: 270px;
 	border-radius: 10px;
 	position: relative;
 	top: 80px;
@@ -39,34 +39,18 @@
 	top: 15px;
 }
 .button {
+	color: black;
+	background-color: #7091ab;
 	width: 40px;
 	height: 30px;
 	border: none;
 	border-radius: 8px;
 	margin-left: 17px;
 	cursor: cell;
-	border-top: 2px solid transparent;
-}
-
-.button {
-	color: white;
-	background-color: #4d5966;
-	border-bottom: black 2px solid;
-	border-top: 2px #6f6f6f solid;
-}
-
-.button {
-	color: white;
-	background-color: #c64f81;
-	border-bottom: black 2px solid;
-	border-top: 2px #6f6f6f solid;
-
-}
-.button {
-	color: white;
-	background-color: #7091ab;
-	border-bottom: black 2px solid;
-	border-top: 2px #6f6f6f solid;
+	border-top: 1px solid transparent;
+	border-bottom: black 1px solid;
+	border-left: black 1px solid;
+	border-right: black 1px solid;
 }
 .button.blue {
 	color: black;
@@ -74,7 +58,12 @@
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
-
+.button.red{
+	color: black;
+	background-color:#DE121D;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
 /* Simulate Button Press */
 .function:active {
 	border-top: black 2px solid;
