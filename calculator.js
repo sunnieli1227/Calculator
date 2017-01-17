@@ -21,6 +21,6 @@ function e( ) {
 }
 
 function colorChange(color) {
-	document.getElementById("style").setAttribute("href", color+".css");
+	document.getElementById("style").setAttribute("href", color);
 }
 
