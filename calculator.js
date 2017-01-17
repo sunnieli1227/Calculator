@@ -19,3 +19,8 @@ function e( ) {
 		d("Error");
 	}
 }
+
+function colorChange(color) {
+	document.getElementById("style").setAttribute("href", color);
+}
+
